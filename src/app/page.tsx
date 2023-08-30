@@ -33,6 +33,7 @@ const Home = () => {
   useEffect(() => {
     handleCallData();
   }, [current]);
+  console.log("hello");
   return (
     <div>
       {data?.map((item) => (
