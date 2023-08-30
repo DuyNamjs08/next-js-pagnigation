@@ -33,7 +33,9 @@ const Home = () => {
   useEffect(() => {
     handleCallData();
   }, [current]);
-  console.log("hello");
+  console.log("1");
+  console.log("1");
+  console.log("1");
   return (
     <div>
       {data?.map((item) => (
